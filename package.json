@@ -1,0 +1,49 @@
+{
+  "name": "pharmacyreport",
+  "version": "1.0.0",
+  "description": "scss compile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o assets/css",
+    "scss_mini": "node-sass --watch assets/scss -o assets/css/min --output-style compressed"
+  },
+  "author": "none",
+  "license": "ISC",
+  "sass": {
+    "includePaths": [
+      "node_modules"
+    ]
+  },
+  "devDependencies": {
+    "animate-sass": "^0.8.2",
+    "css-loader": "^2.0.0",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "handlebars": "^4.0.12",
+    "handlebars-loader": "^1.7.0",
+    "nodemon": "^1.18.8",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.3",
+    "fullcalendar": "^3.9.0",
+    "gmaps": "^0.4.24",
+    "jquery": "^3.3.1",
+    "jvectormap-next": "^3.0.0",
+    "metismenu": "^3.0.3",
+    "moment": "^2.23.0",
+    "node-sass": "^4.13.1",
+    "pe7-icon": "^1.0.4",
+    "perfect-scrollbar": "^1.4.0",
+    "popper.js": "^1.14.4",
+    "toastr": "^2.1.4",
+    "wnumb": "^1.1.0",
+    "yarn": "^1.13.0"
+  }
+}
